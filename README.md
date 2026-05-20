@@ -1,16 +1,35 @@
-## Hi there 👋
+```js
+class BackendEngineer {
 
-<!--
-**dejafuzz/dejafuzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    constructor() {
+        this.name = "Fajri Ikmal Ghozali";
+        this.role = "Backend Engineer";
 
-Here are some ideas to get you started:
+        this.specialization = [
+            "Scalable Backend Systems",
+            "RESTful APIs",
+            "System Architecture"
+        ];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        this.techStack = {
+            backend: ["Laravel", "Node.js", "Golang"],
+            database: ["MySQL", "PostgreSQL", "Redis", "MongoDB"],
+            tools: ["Docker", "Git", "Linux", "Postman"]
+        };
+
+        this.currentlyLearning = [
+            "System Design",
+            "Microservices",
+            "Performance Optimization"
+        ];
+    }
+
+    introduce() {
+        return `Hi 👋 I'm ${this.name} A ${this.role} focused on building clean, scalable, and maintainable systems.`;
+    }
+}
+
+const me = new BackendEngineer();
+
+console.log(me.introduce());
+```
