@@ -25,7 +25,7 @@ class BackendEngineer {
     }
 
     introduce() {
-        return `Hi 👋 I'm ${this.name} A ${this.role} focused on building clean, scalable, and maintainable systems.`;
+        return `Hi 👋 I'm ${this.name}, a ${this.role} focused on building clean, scalable, and maintainable systems.`;
     }
 }
 
